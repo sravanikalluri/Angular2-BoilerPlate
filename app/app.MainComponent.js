@@ -1,4 +1,4 @@
-System.register(['angular2/core', './app.book'], function(exports_1, context_1) {
+System.register(['angular2/core', './app.customer'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,15 @@ System.register(['angular2/core', './app.book'], function(exports_1, context_1) 
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, app_book_1;
+    var core_1, app_customer_1;
     var MainComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (app_book_1_1) {
-                app_book_1 = app_book_1_1;
+            function (app_customer_1_1) {
+                app_customer_1 = app_customer_1_1;
             }],
         execute: function() {
             MainComponent = (function () {
@@ -27,8 +27,8 @@ System.register(['angular2/core', './app.book'], function(exports_1, context_1) 
                 MainComponent = __decorate([
                     core_1.Component({
                         selector: "hello",
-                        template: "<h4> Hello Dear </h4>  <book></book>",
-                        directives: [app_book_1.book]
+                        template: "<h4> Sonicsoft Technologies </h4>  <customer></customer>",
+                        directives: [app_customer_1.customer]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], MainComponent);
